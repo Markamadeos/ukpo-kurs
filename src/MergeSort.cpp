@@ -55,7 +55,7 @@ void MergSort(int *arr, int left, int right) {
         }
 }
 
-void msort(int *arr, unsigned __int8 arr_len) {
+void msort(int *arr, int arr_len) {
     MergSort(arr, 0, arr_len - 1);
 }
 
