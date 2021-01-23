@@ -3,6 +3,7 @@
 //
 #include "../src/MergeSort.cpp"
 #include <gtest/gtest.h>
+#include <limits.h>
 
 TEST (MergeSort, SortWhithMaxValue) {
 
