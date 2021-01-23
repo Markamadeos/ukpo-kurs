@@ -8,7 +8,7 @@
 TEST (MergeSort, SortWhithMaxValue) {
 
     // Arrange
-    unsigned __int8 n = 10;
+    int n = 10;
     int *sourceArray = new int[n]{INT_MAX, 7, 6, 4, 5, 3, 8, 0, 2, 1};
     int *expectedArray = new int[n]{0, 1, 2, 3, 4, 5, 6, 7, 8, INT_MAX};
 
@@ -28,7 +28,7 @@ TEST (MergeSort, SortWhithMaxValue) {
 TEST(MergeSort, SortWhithMinValue) {
 
     // Arragne
-    unsigned __int8 n = 10;
+    int n = 10;
     int *sourceArray = new int[n]{7, 6, 4, 5, 3, 8, 0, 2, 1, INT_MIN};
     int *expectedArray = new int[n]{INT_MIN, 0, 1, 2, 3, 4, 5, 6, 7, 8};
 
@@ -48,7 +48,7 @@ TEST(MergeSort, SortWhithMinValue) {
 TEST(MergeSort, SortWhithMinAndMaxValues) {
 
     // Arrange
-    unsigned __int8 n = 10;
+    int n = 10;
     int* sourceArray = new int[n] {INT_MAX, INT_MAX, INT_MIN, INT_MIN,
                                    INT_MAX, INT_MIN, INT_MAX, INT_MIN, INT_MAX, INT_MIN};
     int* expectedArray = new int[n] {INT_MIN, INT_MIN, INT_MIN, INT_MIN,
@@ -70,7 +70,7 @@ TEST(MergeSort, SortWhithMinAndMaxValues) {
 TEST(MergeSort, SortWhithAllZero) {
 
     // Arrange
-    unsigned __int8 n = 10;
+    int n = 10;
     int* sourceArray = new int[n] {0, 0, 0, 0,
                                    0, 0, 0, 0, 0, 0};
     int* expectedArray = new int[n] {0, 0, 0, 0,
@@ -92,7 +92,7 @@ TEST(MergeSort, SortWhithAllZero) {
 TEST(MergeSort, SortWhithAllNegative) {
 
     // Arrange
-    unsigned __int8 n = 10;
+    int n = 10;
     int* sourceArray = new int[n] {-1, -1, -1, -1,
                                    -1, -1, -1, -1, -1, -1};
     int* expectedArray = new int[n] {-1, -1, -1, -1,
