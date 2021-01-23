@@ -108,7 +108,7 @@ TEST(MergeSort, SortWhithAllNegative) {
     delete[] expectedArray;
 
     // Assert
-    ASSERT_FALSE(isEqual);
+    ASSERT_TRUE(isEqual);
 }
 
 int main(int argc, char **argv) {
