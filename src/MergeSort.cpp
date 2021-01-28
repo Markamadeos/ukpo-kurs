@@ -1,6 +1,4 @@
-//
-// Created by Ded on 23.01.2021.
-//
+
 
 using namespace std;
 const int MAX = 100;
