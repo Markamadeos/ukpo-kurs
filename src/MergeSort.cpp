@@ -93,7 +93,7 @@ void rMergSort(int *arr, int left, int right) {
     int temp;
     if (left < right)
         if (right - left == 1) {
-            if (arr[right] < arr[left]) {
+            if (arr[right] > arr[left]) {
                 temp = arr[left];
                 arr[left] = arr[right];
                 arr[right] = temp;
